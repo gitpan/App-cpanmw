@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "cpanmw",
+   "name" : "App-cpanmw",
    "no_index" : {
       "directory" : [
          "t",
@@ -28,7 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build::Tiny" : "0.035"
          }
       },
       "develop" : {
@@ -55,11 +55,12 @@
    "provides" : {
       "App::cpanmw" : {
          "file" : "lib/App/cpanmw.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
-   "version" : "0.02",
+   "version" : "0.03",
+   "x_authority" : "cpan:KPEE",
    "x_contributors" : [
       "KPEE <kpee.cpan@gmail.com>"
    ]
